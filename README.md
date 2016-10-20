@@ -1,6 +1,6 @@
 # GitHub Tutorial
 
-_by <your-name-here>_
+_by Kaily Sanchez_
 
 ---
 ## Git vs. GitHub
