@@ -39,7 +39,9 @@ These are *the most* important steps to remember because you will **ALWAYS** be 
 
 The commands above are in workflow order. You *__cannot__* use these commands randomly or you will run into many errors. 
 
-`git status` is used to 
+`git status` is used to check any changes/ edits made in the working directory.This command can be used as many times as you want and it very helpful. Use `git status` often! It can help you if you run into a probelm when you are using the workflow. 
+
+`git add` is used to add file(s) to the staging area. This doesnt mean it's been fully saved! It has to be commited so the file is pushed to the staging area, waiting to be fully commited.
 
 
 ---
