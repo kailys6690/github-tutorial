@@ -49,9 +49,10 @@ _hint_: to know if your recent edits have been made, they will be in **_red_**!
 This is especially helpful to use after adding file(s) because you may never know if you fully added the file to the staging area. This can also check what file(s) you have added to the staging area.  
 _hint_: to know if your files are staged for the commit, they will be in **_green_**!
 
-`git commit -m""` is the last step of the workflow and the most important. This command takes a 'snapshot' of the file(s) you have added and fully commits them into the . Otherwords, it is saving the changes you have made **permantely**.
+`git commit -m ""` is the last step of the workflow and the most important. This command takes a 'snapshot' of the file(s) you have added and fully commits them into the . Otherwords, it is saving the changes you have made **permantely**.
 
-`git push` is used after git commit.
+`git push` is used after git commit to send all your recent commits that have been made from our local repo to the remote repo(sitory) (up to the clouds: GitHub). In otherwords, we are sending our commits from Git to GitHub.  
+**BUT** in order to use the command `git push`, you need to make sure that you do have a remote repo
 
 ---
 ### Error Handlings
