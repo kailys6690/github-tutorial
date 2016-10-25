@@ -5,10 +5,10 @@ _by Kaily Sanchez_
 ---
 ## Git vs. GitHub
 What is **Git**?
-
+Git is a version control that takes "screenshots" of your code. Git is run throught locally and through the commad line. It is important because it helps you keep track of different versions of your work. 
 
 What is **GitHub**?
-
+GitHub is used to save your code into the "cloud." They visually track the changes you have made and are easy to collabortae on files. 
 
 What is the difference between **Git** and **GitHub**?
 
@@ -49,10 +49,10 @@ _hint_: to know if your recent edits have been made, they will be in **_red_**!
 This is especially helpful to use after adding file(s) because you may never know if you fully added the file to the staging area. This can also check what file(s) you have added to the staging area.  
 _hint_: to know if your files are staged for the commit, they will be in **_green_**!
 
-`git commit -m ""` is the last step of the workflow and the most important. This command takes a 'snapshot' of the file(s) you have added and fully commits them into the . Otherwords, it is saving the changes you have made **permantely**.
+`git commit -m ""` is the last step of the workflow and the most important. This command takes a 'snapshot' of the file(s) you have added and fully commits them into the . Otherwords, it is saving the changes you have made **permantely**. `-m ""` should be used as a message to describe what is being modified. 
 
-`git push` is used after git commit to send all your recent commits that have been made from our local repo to the remote repo(sitory) (up to the clouds: GitHub). In otherwords, we are sending our commits from Git to GitHub.  
-**BUT** in order to use the command `git push`, you need to make sure that you do have a remote repo
+`git push` is used after git commit to send all your recent commits that have been made from our local repo to the remote repo(sitory) (up to the clouds: GitHub) that lives on GitHub. In otherwords, we are sending our commits from Git to GitHub.  
+**BUT** in order to use the command `git push`, you need to make sure that you do have a **remote repo** which allows us to push our changes up to the cloud.
 
 ---
 ### Error Handlings
