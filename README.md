@@ -20,7 +20,8 @@ What is the difference between **Git** and **GitHub**?
 ## Initial Setup
 **Making a new GitHub Account**  
 This is required if you want to connect your C9 account (Cloud 9) with your GitHub account.  
-Here are the steps you need to take to make your **Github account** & **SSH key**:  
+Here are the steps you need to take to make your **Github account** & **SSH key**: 
+
 1. You first sign up for a GitHub account by going to [GitHub](https://github.com/).
 2. After you have made your account, go to your homepage (by clicking the octocat logo on the top-left corner) and at the top-right corner of the page you will see your profile icon. Click on it.
 3. A dropdown menue will appear. Go to your settings.
