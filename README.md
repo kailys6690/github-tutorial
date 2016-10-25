@@ -48,10 +48,12 @@ How do you set up your own repo(sitory)?
 To make a repository, you need to turn a directory you specify to that repository. We use a command called `git init`.
 
 `git init` is used to initialize git in our directory (that is now a repository) for version control. You can only use this code only **once!**  
-Once you have initialized your repository, now you can start adding and commiting edits/changes on the files you have made in that repo. 
+Once you have initialized your repository, now you can start adding and commiting edits/changes on the files you have made in that repo.  
+This will be yout first **add** and **commit!*
 
 
-After you have made your SSH key and connected your Cloud9 with GitHub, you will want to make a remote repo next.
+After you have made your SSH key and connected your Cloud9 with GitHub, you will want to make a remote repo next.  
+
 1. After you have set up your SSH key, you want to go to the top right corner of your homepage and click the "+" sign.
 2. A dropdown menue will appear and you will want to click "New Repository"
 3. You will appear in a new page and you will see "Create a new repository." Under "Repostory name", you will want to type in your repository name.  
