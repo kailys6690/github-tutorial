@@ -30,6 +30,7 @@ Here are the steps you need to take to make your **Github account** & **SSH key*
 6. Give it a title then click the big green button that says "Add SSH key" once you're done.  
 
 Now that you have made your SSH key, you will want to open your C9 account that is on the [C9 website](https://c9.io/)
+
 1. Log into your c9 account
 2. On the top-right corner, click the gear icon
 3. On the left side bar, click on the "SSH Keys" tab
