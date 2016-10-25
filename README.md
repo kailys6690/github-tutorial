@@ -40,11 +40,10 @@ Now that you have made your SSH key, you will want to open your C9 account that 
 
 Once you have entered your ssh key into the command line, you will finally have your Cloud9 and GitHub connected
 
-
-
 ---
 ## Repository Setup
 How do you set up your own repo(sitory)?
+
 
 
 
