@@ -56,7 +56,8 @@ But now we have to connect your new repository to your **remote repo** that will
 2. A dropdown menue will appear and you will want to click "New Repository"
 3. You will appear in a new page and you will see "Create a new repository." Under "Repostory name", you will want to type in your repository name.  
 This **_must_** _always_ match your repository name that you have in **Cloud9!** 
-4.
+4. Then click the big button that says "Create New Repository"
+
 
 
 
