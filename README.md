@@ -4,19 +4,41 @@ _by Kaily Sanchez_
 
 ---
 ## Git vs. GitHub
-What is **Git**?
+What is **Git**?  
 Git is a version control that takes "screenshots" of your code. Git is run throught locally and through the commad line. It is important because it helps you keep track of different versions of your work. 
 
-What is **GitHub**?
+What is **GitHub**?  
 GitHub is used to save your code into the "cloud." They visually track the changes you have made and are easy to collabortae on files. 
 
 What is the difference between **Git** and **GitHub**?
 
-Git runs locally, unlike GitHub which runs in the clouds. Git doesn't require GitHub, but GitHub does require Git.
+* Git runs locally, unlike GitHub which runs in the clouds.
+*  Git doesn't require GitHub, but GitHub does require Git.
   
 
 ---
 ## Initial Setup
+**Making a new GitHub Account**  
+This is required if you want to connect your C9 account (Cloud 9) with your GitHub account.  
+Here are the steps you need to take to make your **Github account** & **SSH key**:  
+1. You first sign up for a GitHub account by going to [GitHub](https://github.com/).
+2. After you have made your account, go to your homepage (by clicking the octocat logo on the top-left corner) and at the top-right corner of the page you will see your profile icon. Click on it.
+3. A dropdown menue will appear. Go to your settings.
+4. On the left sidebar, find :SSH and GPS keys" and click on it.
+5. You will want to create a New SSH Key that will appear on the SSH keys tab on the right corner
+6. Give it a title then click the big green button that says "Add SSH key" once you're done.  
+
+Now that you have made your SSH key, you will want to open your C9 account that is on the [C9 website](https://c9.io/)
+1. Log into your c9 account
+2. On the top-right corner, click the gear icon
+3. On the left side bar, click on the "SSH Keys" tab
+4. Copy your SSH key that is in the big grey box 
+5. Paste your SSH key into GitHub
+* starts with ssh-rsa
+6. Then add your SSH key
+7. Go back to Cloud9 and open up your workspace. Then enter your ssh key into the command line
+
+Once you have entered your ssh key into the command line, you will finally have your Cloud9 and GitHub connected
 
 
 
