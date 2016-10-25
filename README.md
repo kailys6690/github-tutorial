@@ -50,7 +50,6 @@ To make a repository, you need to turn a directory you specify to that repositor
 `git init` is used to initialize git in our directory (that is now a repository) for version control. You can only use this code only **once!**  
 Once you have initialized your repository, now you can start adding and commiting edits/changes on the files you have made in that repo. 
 
-**FINISH FIRST ADD & COMMIT, NEW REPO ON GITHUB, & REMOTE**
 
 After you have made your SSH key and connected your Cloud9 with GitHub, you will want to make a remote repo next.
 1. After you have set up your SSH key, you want to go to the top right corner of your homepage and click the "+" sign.
