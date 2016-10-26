@@ -48,6 +48,10 @@ How do you set up your own repo(sitory)?
 To make a repository, you need to turn a directory you specify to that repository. We use a command called `git init`.
 
 `git init` is used to initialize git in our directory (that is now a repository) for version control. You can only use this code only **once!**  
+To make our first repository, we start by going to the root of our workspace. It should look something like this:  
+**ADD SCREENSHOT**
+**Make sure you are not in `~ $ `! you need to be into `~/workspace $`!**  
+Now you make your first directory by using the command `mkdir directoryname`. 
 Once you have initialized your repository, now you can start adding and commiting edits/changes on the files you have made in that repo. This will be yout first **add** and **commit!*  
 
 But now we have to connect your new repository to your **remote repo** that will live on GitHub. Here are the steps you need to take:
