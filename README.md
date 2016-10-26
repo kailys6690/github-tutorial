@@ -5,7 +5,7 @@ _by Kaily Sanchez_
 ---
 ## Git vs. GitHub
 What is **Git**?  
-Git is a version control that takes "screenshots" of your code. Git is run throught locally and through the commad line. It is important because it helps you keep track of different versions of your work. 
+Git is a version control that takes "screenshots" of your code. Git is run through locally and through the commad line. It is important because it helps you keep track of different versions of your work. 
 
 What is **GitHub**?  
 GitHub is used to save your code into the "cloud." They visually track the changes you have made and are easy to collabortae on files. 
