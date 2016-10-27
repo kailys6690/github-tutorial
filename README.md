@@ -53,7 +53,7 @@ To make our first repository, we start by going to the root of our workspace. It
 **Make sure you are not in `~ $ `! you need to be into `~/workspace $`!**  
 Now you make your first directory by using the command `mkdir directoryname`. Once you have made your directory, use the command `cd directoryname` to go into the directory you have made. This step is completely **important** because we are going to use the command `git init` for that specific directory you have made. If you don't `cd` into that directory and instead you use `git init` right away, you will make your workspace as a repository and we do **not** want that. 
 
-Once you have initialized your repository, now you can start adding and commiting edits/changes on the files you have made in that repo. This will be your first **add** and **commit!** But how can we push our new changes into the cloud? We need to connect your new repository to your **remote repo** that lives in the clouds.  
+Once you have initialized your repository (you will know if you see `(master) $ ` in your command line) , you can start adding and commiting edits/changes on the files you have made in that repo. This will be your first **add** and **commit!** But how can we push our new changes into the cloud? We need to connect your new repository to your **remote repo** that lives in the clouds.  
 
 In order to connect your new repository to your **remote repo** that will live on GitHub. Here are the steps you need to take:
 
@@ -62,6 +62,11 @@ In order to connect your new repository to your **remote repo** that will live o
 3. You will appear in a new page and you will see "Create a new repository." Under "Repostory name", you will want to type in your repository name.  
 This **_must_** _always_ match your repository name that you have in **Cloud9!** 
 4. Then click the big button that says "Create New Repository"
+5. A new page will load with the name of your repositry name. This is your repository page. Now in the "Quick setup" section, you will see two buttons that say "HTTPS" next to "SSH". Make sure you click on the "SSH" button. (this is because we made an SSH key in the beginning)
+6. Now in the "…or push an existing repository from the command line" section, copy and paste (one at a time) into the command line in you Cloud 9 account. It will look something like this:  
+`git remote add origin git@github.com:kailys6690/fdsd.git`  
+`git push -u origin master`  
+Copy and paste these two codes (not the examples above!) into your cloud9 account.  
 
 
 
