@@ -1,0 +1,172 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>GitHub-tutorial by kailys6690</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1 class="header">GitHub-tutorial</h1>
+        <p class="header">kailysgithub-tutorial</p>
+
+        <ul>
+          <li class="download"><a class="buttons" href="https://github.com/kailys6690/github-tutorial/zipball/master">Download ZIP</a></li>
+          <li class="download"><a class="buttons" href="https://github.com/kailys6690/github-tutorial/tarball/master">Download TAR</a></li>
+          <li><a class="buttons github" href="https://github.com/kailys6690/github-tutorial">View On GitHub</a></li>
+        </ul>
+
+        <p class="header">This project is maintained by <a class="header name" href="https://github.com/kailys6690">kailys6690</a></p>
+
+
+      </header>
+      <section>
+        <h1>
+<a id="github-tutorial" class="anchor" href="#github-tutorial" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>GitHub Tutorial</h1>
+
+<p><em>by Kaily Sanchez</em></p>
+
+<hr>
+
+<h2>
+<a id="git-vs-github" class="anchor" href="#git-vs-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git vs. GitHub</h2>
+
+<p>What is <strong>Git</strong>?<br>
+Git is a version control that takes "screenshots" of your code. Git is run throught locally and through the commad line. It is important because it helps you keep track of different versions of your work. </p>
+
+<p>What is <strong>GitHub</strong>?<br>
+GitHub is used to save your code into the "cloud." They visually track the changes you have made and are easy to collabortae on files. </p>
+
+<p>What is the difference between <strong>Git</strong> and <strong>GitHub</strong>?</p>
+
+<ul>
+<li>Git runs locally, unlike GitHub which runs in the clouds.</li>
+<li> Git doesn't require GitHub, but GitHub does require Git.</li>
+</ul>
+
+<hr>
+
+<h2>
+<a id="initial-setup" class="anchor" href="#initial-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p><strong>Making a new GitHub Account</strong><br>
+This is required if you want to connect your C9 account (Cloud 9) with your GitHub account.<br>
+Here are the steps you need to take to make your <strong>Github account</strong> &amp; <strong>SSH key</strong>: </p>
+
+<ol>
+<li>You first sign up for a GitHub account by going to <a href="https://github.com/">GitHub</a>.</li>
+<li>After you have made your account, go to your homepage (by clicking the octocat logo on the top-left corner) and at the top-right corner of the page you will see your profile icon. Click on it.</li>
+<li>A dropdown menue will appear. Go to your settings.</li>
+<li>On the left sidebar, find :SSH and GPS keys" and click on it.</li>
+<li>You will want to create a New SSH Key that will appear on the SSH keys tab on the right corner</li>
+<li>Give it a title then click the big green button that says "Add SSH key" once you're done.<br>
+</li>
+</ol>
+
+<p>Now that you have made your SSH key, you will want to open your C9 account that is on the <a href="https://c9.io/">C9 website</a></p>
+
+<ol>
+<li>Log into your c9 account</li>
+<li>On the top-right corner, click the gear icon</li>
+<li>On the left side bar, click on the "SSH Keys" tab</li>
+<li>Copy your SSH key that is in the big grey box </li>
+<li>Paste your SSH key into GitHub</li>
+<li>starts with ssh-rsa</li>
+<li>Then add your SSH key</li>
+<li>Go back to Cloud9 and open up your workspace. Then enter your ssh key into the command line</li>
+</ol>
+
+<p>Once you have entered your ssh key into the command line, you will finally have your Cloud9 and GitHub connected</p>
+
+<hr>
+
+<h2>
+<a id="repository-setup" class="anchor" href="#repository-setup" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Repository Setup</h2>
+
+<p>How do you set up your own repo(sitory)?<br>
+To make a repository, you need to turn a directory you specify to that repository. We use a command called <code>git init</code>.</p>
+
+<p><code>git init</code> is used to initialize git in our directory (that is now a repository) for version control. You can only use this code only <strong>once!</strong><br>
+To make our first repository, we start by going to the root of our workspace.
+<strong>Make sure you are not in <code>~ $</code>! you need to be into <code>~/workspace $</code>!</strong><br>
+Now you make your first directory by using the command <code>mkdir directoryname</code>. Once you have made your directory, use the command <code>cd directoryname</code> to go into the directory you have made. This step is completely <strong>important</strong> because we are going to use the command <code>git init</code> for that specific directory you have made. If you don't <code>cd</code> into that directory and instead you use <code>git init</code> right away, you will make your workspace as a repository and we do <strong>not</strong> want that. </p>
+
+<p>Once you have initialized your repository (you will know if you see <code>(master) $</code> in your command line) , you can start adding and commiting edits/changes on the files you have made in that repo. This will be your first <strong>add</strong> and <strong>commit!</strong> But how can we push our new changes into the cloud? We need to connect your new repository to your <strong>remote repo</strong> that lives in the clouds.  </p>
+
+<p>In order to connect your new repository to your <strong>remote repo</strong> that will live on GitHub. Here are the steps you need to take:</p>
+
+<ol>
+<li>Go to the top right corner of your homepage and click the "+" sign.</li>
+<li>A dropdown menue will appear and you will want to click "New Repository"</li>
+<li>You will appear in a new page and you will see "Create a new repository." Under "Repostory name", you will want to type in your repository name.<br>
+This <strong><em>must</em></strong> <em>always</em> match your repository name that you have in <strong>Cloud9!</strong> </li>
+<li>Then click the big button that says "Create New Repository"</li>
+<li>A new page will load with the name of your repositry name. This is your repository page. Now in the "Quick setup" section, you will see two buttons that say "HTTPS" next to "SSH". Make sure you click on the "SSH" button. (this is because we made an SSH key in the beginning)</li>
+<li>Now in the "…or push an existing repository from the command line" section, copy and paste (one at a time) into the command line in you Cloud 9 account. It will look something like this:<br>
+<a href="https://gyazo.com/1a9bf12c0d248390c8646d78d21cb73d">ExamplePicture</a><br>
+</li>
+</ol>
+
+<p><code>git remote add origin git@github.com:kailys6690/fdsd.git</code><br>
+<code>git push -u origin master</code><br>
+Copy and paste these two codes (not these examples above, the ones you have) into your cloud9 account.<br>
+7. </p>
+
+<hr>
+
+<h2>
+<a id="workflow--commands" class="anchor" href="#workflow--commands" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Workflow &amp; Commands</h2>
+
+<p>These are <em>the most</em> important steps to remember because you will <strong>ALWAYS</strong> be using these commands:</p>
+
+<ol>
+<li><code>git status</code></li>
+<li><code>git add</code></li>
+<li>
+<code>git status</code> <em>(optional)</em>
+</li>
+<li>
+<code>git commit -m ""</code> </li>
+<li>
+<code>git push</code> (only <em>if</em> you have a remote repo)</li>
+</ol>
+
+<p>The commands above are in workflow order. You <em><strong>cannot</strong></em> use these commands randomly or you will run into many errors. </p>
+
+<p><code>git status</code> is used to check any changes/ edits made in the working directory. This command can be used as many times as you want and it very helpful.<br>
+Use <code>git status</code> often! It can help you if you run into a probelm when you are using the workflow.<br>
+<em>hint</em>: to know if your recent edits have been made, they will be in <strong><em>red</em></strong>!</p>
+
+<p><code>git add</code> is used to add file(s) to the staging area. This doesnt mean it's been fully saved! It has to be commited so the file is pushed to the staging area, waiting to be fully commited.</p>
+
+<p><code>git status</code> is completely optional to use again, but I totally recommend it because you can never underetimate <code>git status</code>!<br>
+This is especially helpful to use after adding file(s) because you may never know if you fully added the file to the staging area. This can also check what file(s) you have added to the staging area.<br>
+<em>hint</em>: to know if your files are staged for the commit, they will be in <strong><em>green</em></strong>!</p>
+
+<p><code>git commit -m ""</code> is the last step of the workflow and the most important. This command takes a 'snapshot' of the file(s) you have added and fully commits them into the . Otherwords, it is saving the changes you have made <strong>permantely</strong>. <code>-m ""</code> should be used as a message to describe what is being modified. </p>
+
+<p><code>git push</code> is used after git commit to send all your recent commits that have been made from our local repo to the remote repo(sitory) (up to the clouds: GitHub) that lives on GitHub. In otherwords, we are sending our commits from Git to GitHub.<br>
+<strong>BUT</strong> in order to use the command <code>git push</code>, you need to make sure that you do have a <strong>remote repo</strong> which allows us to push our changes up to the cloud.</p>
+
+<hr>
+
+<h3>
+<a id="error-handlings" class="anchor" href="#error-handlings" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Error Handlings</h3>
+      </section>
+      <footer>
+        <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
+      </footer>
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+		
+  </body>
+</html>
