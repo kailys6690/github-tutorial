@@ -49,12 +49,13 @@ To make a repository, you need to turn a directory you specify to that repositor
 
 `git init` is used to initialize git in our directory (that is now a repository) for version control. You can only use this code only **once!**  
 To make our first repository, we start by going to the root of our workspace. It should look something like this:  
-**ADD SCREENSHOT**
+**ADD SCREENSHOT**  
 **Make sure you are not in `~ $ `! you need to be into `~/workspace $`!**  
-Now you make your first directory by using the command `mkdir directoryname`. 
-Once you have initialized your repository, now you can start adding and commiting edits/changes on the files you have made in that repo. This will be yout first **add** and **commit!*  
+Now you make your first directory by using the command `mkdir directoryname`. Once you have made your directory, use the command `cd directoryname` to go into the directory you have made. This step is completely **important** because we are going to use the command `git init` for that specific directory you have made. If you don't `cd` into that directory and instead you use `git init` right away, you will make your workspace as a repository and we do **not** want that. 
 
-But now we have to connect your new repository to your **remote repo** that will live on GitHub. Here are the steps you need to take:
+Once you have initialized your repository, now you can start adding and commiting edits/changes on the files you have made in that repo. This will be your first **add** and **commit!** But how can we push our new changes into the cloud? We need to connect your new repository to your **remote repo** that lives in the clouds.  
+
+In order to connect your new repository to your **remote repo** that will live on GitHub. Here are the steps you need to take:
 
 1. Go to the top right corner of your homepage and click the "+" sign.
 2. A dropdown menue will appear and you will want to click "New Repository"
