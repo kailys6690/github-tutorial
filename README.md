@@ -24,7 +24,7 @@ Here are the steps you need to take to make your **Github account** & **SSH key*
 
 1. You first sign up for a GitHub account by going to [GitHub](https://github.com/).
 2. After you have made your account, go to your homepage (by clicking the octocat logo on the top-left corner) and at the top-right corner of the page you will see your profile icon. Click on it.
-[homepage&icon]()
+[homepage&icon](https://raw.githubusercontent.com/kailys6690/github-tutorial/master/octocat.jpg)
 3. A dropdown menue will appear. Go to your settings.
 4. On the left sidebar, find :SSH and GPS keys" and click on it.
 5. You will want to create a New SSH Key that will appear on the SSH keys tab on the right corner
