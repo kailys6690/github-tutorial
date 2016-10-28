@@ -63,7 +63,7 @@ This **_must_** _always_ match your repository name that you have in **Cloud9!**
 4. Then click the big button that says "Create New Repository"
 5. A new page will load with the name of your repositry name. This is your repository page. Now in the "Quick setup" section, you will see two buttons that say "HTTPS" next to "SSH". Make sure you click on the "SSH" button. (this is because we made an SSH key in the beginning)
 6. Now in the "…or push an existing repository from the command line" section, copy and paste (one at a time) into the command line in you Cloud 9 account. It will look something like this:  
-[ExamplePicture](https://gyazo.com/1a9bf12c0d248390c8646d78d21cb73d)  
+![ExamplePicture](https://raw.githubusercontent.com/kailys6690/github-tutorial/master/example_of_ssh.png)  
 
 `git remote add origin git@github.com:kailys6690/fdsd.git`  
 `git push -u origin master`  
