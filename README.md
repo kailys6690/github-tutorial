@@ -79,7 +79,7 @@ These are *the most* important steps to remember because you will **ALWAYS** be 
 1. `git status`
 2. `git add`
 3. `git status` *(optional)*
-4. `git commit -m ""` 
+4. `git commit -m "put what changes you have made in this commit"` 
 5. `git push` (only _if_ you have a remote repo)
 
 The commands above are in workflow order. You *__cannot__* use these commands randomly or you will run into many errors. 
