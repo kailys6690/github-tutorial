@@ -67,13 +67,9 @@ This **_must_** _always_ match your repository name that you have in **Cloud9!**
 
 `git remote add origin git@github.com:kailys6690/fdsd.git`  
 `git push -u origin master`  
-Copy and paste these two codes (not these examples above, the ones you have) into your cloud9 account.  
-7. 
-
-
-
-
-
+Copy and paste these two codes (not these examples above, the ones you have) into your cloud9 account.    
+After you have pasted both of commands into the command line, you have now officially connected your cloud9 account with github!  
+You can now use the command `git push` without having to use the whole comand `git push -u origin master`.
 
 
 ---
@@ -104,4 +100,3 @@ _hint_: to know if your files are staged for the commit, they will be in **_gree
 **BUT** in order to use the command `git push`, you need to make sure that you do have a **remote repo** which allows us to push our changes up to the cloud.
 
 ---
-### Error Handlings
