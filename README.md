@@ -24,6 +24,7 @@ Here are the steps you need to take to make your **Github account** & **SSH key*
 
 1. You first sign up for a GitHub account by going to [GitHub](https://github.com/).
 2. After you have made your account, go to your homepage (by clicking the octocat logo on the top-left corner) and at the top-right corner of the page you will see your profile icon. Click on it.
+[homepage&icon]()
 3. A dropdown menue will appear. Go to your settings.
 4. On the left sidebar, find :SSH and GPS keys" and click on it.
 5. You will want to create a New SSH Key that will appear on the SSH keys tab on the right corner
@@ -65,8 +66,6 @@ This **_must_** _always_ match your repository name that you have in **Cloud9!**
 6. Now in the "…or push an existing repository from the command line" section, copy and paste (one at a time) into the command line in you Cloud 9 account. It will look something like this:  
 ![ExamplePicture](https://raw.githubusercontent.com/kailys6690/github-tutorial/master/example_of_ssh.png)  
 
-`git remote add origin git@github.com:kailys6690/fdsd.git`  
-`git push -u origin master`  
 Copy and paste these two codes (not these examples above, the ones you have) into your cloud9 account.    
 After you have pasted both of commands into the command line, you have now officially connected your cloud9 account with github!  
 You can now use the command `git push` without having to use the whole comand `git push -u origin master`.
